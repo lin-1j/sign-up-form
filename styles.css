@@ -164,13 +164,13 @@ input:focus {
 }
 
 .bottom {
+    box-shadow: inset 0px 30px 10px -27px lightgrey;
     height: 22.5%;
     background-color: rgb(249, 250, 251);
-    /* z-index: -1; */
     display: flex;
     flex-direction: column;
     padding: 2rem 3rem;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .bottom button {
@@ -179,6 +179,10 @@ input:focus {
     color: white;
     background-color: darkolivegreen;
     border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.bottom p {
     font-size: 0.85rem;
 }
 
