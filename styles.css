@@ -91,7 +91,7 @@ a {
 }
 
 .header {
-    height: calc(35% * 0.825); 
+    height: 35%; 
     background-color: rgb(249, 250, 251);
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@ a {
 }
 
 form {
-    height: 42.25%;
+    height: 42.5%;
     background-color: white;
     box-shadow: 0px 0px 10px 2px lightgrey, 0px 5px 10px 0px lightgrey;
     display: flex;
@@ -157,12 +157,38 @@ input {
     border-radius: 3px;
     padding: 0.5rem;
 }
-.submit {
-    height: calc(35% * 0.825);
+
+
+.bottom {
+    height: 22.5%;
     background-color: rgb(249, 250, 251);
-    z-index: -1;
+    /* z-index: -1; */
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    gap: 1rem;
 }
 
+.bottom button {
+    width: 30%;
+    height: 20%;
+    color: white;
+    background-color: darkolivegreen;
+    border-radius: 6px;
+}
+
+.bottom button:hover {
+    cursor: pointer;
+    background-color: rgb(122, 149, 76);
+}
+
+.bottom button:active {
+    background-color: rgb(72, 88, 41);
+}
+
+.bottom a {
+    color: darkolivegreen;
+}
 
 
 
