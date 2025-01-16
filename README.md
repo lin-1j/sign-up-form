@@ -6,9 +6,6 @@ Main Features:
 Client side validation for email and password inputs.
 Submission prevention for failed validations.
 
-Limitations:
-Zooming the page past 175% (on chrome) results in missing website sections
-
 Author:
 lin-1j
 
